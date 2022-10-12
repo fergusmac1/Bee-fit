@@ -21,11 +21,11 @@ module.exports = {
   deleteComment: async (req, res) => {
     try {
       // Find post by id
-      await Comment.remove({ _id: req.params.commentid });
+      await Comment.deleteOne({ _id: req.params.commentid });
       console.log("Deleted Comment");
-      res.redirect(`/post/${req.params.id}`);
+      res.redirect(`/post/${req.params.postid}`);
     } catch (err) {
-      res.redirect(`/post/${req.params.id}`);
+      console.log(err);
     }
   },
 
