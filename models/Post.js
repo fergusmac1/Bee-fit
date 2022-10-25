@@ -5,22 +5,6 @@ const PostSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  set1: {
-    type: String,
-    required: true,
-  },
-  set2: {
-    type: String,
-    required: true,
-  },
-  set3: {
-    type: String,
-    required: true,
-  },
-  set4: {
-    type: String,
-    required: true,
-  },
   image: {
     type: String,
     require: true,
