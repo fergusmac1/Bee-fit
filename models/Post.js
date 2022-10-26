@@ -5,8 +5,12 @@ const PostSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  set1: {
-    type: String,
+  setweight1: {
+    type: Number,
+    required: true,
+  },
+  reps1: {
+    type: Number,
     required: true,
   },
   image: {
