@@ -1,6 +1,9 @@
 body{
   background-color: rgb(161, 110, 172);
 }
+div{
+  font-family:'Permanent Marker', 'cursive';
+}
 .fitness{
   display: flex;
   justify-content: center;
