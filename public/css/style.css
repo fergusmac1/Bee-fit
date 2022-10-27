@@ -1,11 +1,15 @@
 body{
-  background-color:rgb(185, 81, 176);
- 
+  background-color: rgb(161, 110, 172);
 }
 .fitness{
   display: flex;
   justify-content: center;
   padding: 50px;
+}
+
+.dumbells{
+  max-width: 500px;
+  height: 300px;
 }
 
 img {
@@ -36,3 +40,7 @@ img {
     color: #4a4ad4;
     border-color: #4fbfa8;
   }
+
+.submitbut{
+  padding-bottom: 25px;
+}
