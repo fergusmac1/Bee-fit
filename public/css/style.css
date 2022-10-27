@@ -1,8 +1,38 @@
 body{
-  background-color: rgb(192, 207, 207);
+  background-color:rgb(185, 81, 176);
+ 
 }
+.fitness{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
 img {
     display: block;
     max-width: 200px;
     height: 200px;
+  }
+
+.mainheader{
+    font-family: 'Permanent Marker', 'cursive';
+    color: #e4ed33;
+    text-decoration: none;
+  }
+  
+.btn-primary{
+    color: #ffffff;
+    background-color: #4c14a5;
+    border-color: #d5ed48;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    font-family: 'Permanent Marker', 'cursive';
+  }
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.active {
+    background: #4fbfa8;
+    color: #4a4ad4;
+    border-color: #4fbfa8;
   }

@@ -13,6 +13,30 @@ const PostSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  setweight2: {
+    type: Number,
+    required: true,
+  },
+  reps2: {
+    type: Number,
+    required: true,
+  },
+  setweight3: {
+    type: Number,
+    required: true,
+  },
+  reps3: {
+    type: Number,
+    required: true,
+  },
+  setweight4: {
+    type: Number,
+    required: true,
+  },
+  reps4: {
+    type: Number,
+    required: true,
+  },
   image: {
     type: String,
     require: true,
